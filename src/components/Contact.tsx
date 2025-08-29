@@ -64,7 +64,7 @@ const content = {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-800 mb-4">Contact Us</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            We'd love to hear from you! Get in touch with our   friendly team for any questions, suggestions, or feedback.
+            We'd love to hear from you! Get in touch with our friendly team for any questions, suggestions, or feedback.
           </p>
         </div>
 
