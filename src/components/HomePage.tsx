@@ -1,7 +1,7 @@
 import React,{ useState, useEffect } from 'react';
-import image1 from '../components/images/Grocery-PNG-Clipart.png';
-import image2 from '../components/images/dd980e866fd56ebd3672b1da2efa48b0.jpg';
-import image3 from '../components/images/grocery-items-png-transparent-grocery-items-png-images-pluspng--comdlpng6939986.jpg';
+import image1 from '../components/images/aisle-3105629_1280.jpg';
+import image2 from '../components/images/nathalia-rosa-rWMIbqmOxrY-unsplash.jpg';
+import image3 from '../components/images/pexels-pixabay-264636.jpg';
 import { Link } from 'react-router-dom';
 import { ShoppingCart, Clock, MapPin, Star, ArrowRight } from 'lucide-react';
 

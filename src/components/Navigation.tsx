@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Leaf } from 'lucide-react';
+import logo from '../components/images/IMG_20230617_052701.jpg';
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,14 +22,21 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 group">
-            <div className="bg-emerald-500 p-2 rounded-lg group-hover:bg-emerald-600 transition-colors">
-              <Leaf className="h-6 w-6 text-white" />
-            </div>
-            <div>
-              <h1 className="text-xl font-bold text-gray-800">Angalamman Maligai Store</h1>
-            </div>
-          </Link>
+
+<Link to="/" className="flex items-center space-x-2 group">
+  {/* Logo image */}
+  <img
+    src={logo} // replace with your image path or URL
+    alt="Angalamman Maligai Store Logo"
+    className="h-10 w-10 object-contain rounded-lg transition-transform group-hover:scale-105"
+  />
+  
+  {/* Store name */}
+  <div>
+    <h1 className="text-xl font-bold text-gray-800">Angalamman Maligai Store</h1>
+  </div>
+</Link>
+
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
