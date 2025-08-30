@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Leaf } from 'lucide-react';
-import logoVideo from "../components/video/premium & Organic Fruit every day.mp4";
+import logo from "../components/images/ana.png";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,7 +26,7 @@ const Navigation = () => {
 <Link to="/" className="flex items-center space-x-3 group">
   {/* Larger Video logo */}
   <video
-    src={logoVideo} // replace with your video path or URL
+    src={logo} // replace with your video path or URL
     autoPlay
     loop
     muted
