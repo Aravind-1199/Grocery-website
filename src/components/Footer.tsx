@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Leaf, MapPin, Phone, Mail, Clock } from 'lucide-react';
-import logoVideo from "../components/video/premium & Organic Fruit every day.mp4";
+import logo from "../components/images/ChatGPT Image Aug 30, 2025, 10_06_30 AM.png";
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white">
@@ -10,14 +10,11 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center space-x-2 mb-4">
-              <video
-    src={logoVideo} // replace with your video path or URL
-    autoPlay
-    loop
-    muted
-    playsInline
-    className="h-16 w-16 object-contain rounded-lg transition-transform group-hover:scale-105"
-  />
+   <img
+  src={logo} 
+  alt="logo"
+  className="h-24 w-24 object-contain rounded-lg transition-transform group-hover:scale-105"
+/>
 
               <div>
                 <h1 className="text-xl font-bold">Angalamman Maligai Store</h1>

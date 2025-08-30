@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Leaf } from 'lucide-react';
-import logo from "../components/images/ana.png";
+import logo from "../components/images/ChatGPT Image Aug 30, 2025, 10_06_30 AM.png";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,15 +25,11 @@ const Navigation = () => {
 
 <Link to="/" className="flex items-center space-x-3 group">
   {/* Larger Video logo */}
-  <video
-    src={logo} // replace with your video path or URL
-    autoPlay
-    loop
-    muted
-    playsInline
-    className="h-16 w-16 object-contain rounded-lg transition-transform group-hover:scale-105"
-  />
-
+<img
+  src={logo} 
+  alt="logo"
+  className="h-24 w-24 object-contain rounded-lg transition-transform group-hover:scale-105"
+/>
   {/* Store name */}
   <div>
     <h1 className="text-2xl font-bold text-gray-800">Angalamman Maligai Store</h1>
