@@ -20,7 +20,7 @@ const HomePage = () => {
     {
       icon: <MapPin className="h-8 w-8 text-emerald-600" />,
       title: 'Local Community',
-      description: 'Proudly serving our neighborhood for over 15 years with personalized service.'
+      description: 'Proudly serving our neighborhood for over 30 years with personalized service.'
     },
     {
       icon: <Star className="h-8 w-8 text-emerald-600" />,
